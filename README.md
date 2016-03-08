@@ -11,7 +11,7 @@
   [self.view addSubview:iv_1];
 ```
 
-### 2、在UIImage层面处理图片，会产生圆角偏差问题（）
+### 2、在UIImage层面处理图片，会产生圆角大小误差问题
 ```
   -(UIImage *) wp_imageWithCornerRadius:(CGFloat)radius{
     // 构造图片的rect
@@ -66,5 +66,5 @@
 }
 ```
 
-#### 效果比较图（从上至下就是以上3中处理方法的结果，第二种结果明显圆角设置存在误差）
+#### 效果比较图（从上至下就是以上3种处理方法的结果，第二种结果明显圆角设置存在误差）
 ![image](https://github.com/wsb200514/ImageCornerRadius/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%202016-03-08%2016.52.39.png)
