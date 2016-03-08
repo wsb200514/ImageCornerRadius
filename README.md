@@ -1,0 +1,2 @@
+# ImageCornerRadius
+写了个基于UIImageView的Category实现图片圆角，避免离屏渲染问题
